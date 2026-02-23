@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srimathi S | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Srimathi S - Aspiring Engineer specializing in Web Development, Data Analytics, and Java.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body data-theme="dark">
+    <!-- Mesh Background & Scroll Progress -->
+    <div class="mesh-bg"></div>
+    <div id="canvas-container"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Side Navigation -->
+    <nav class="side-nav" id="sideNav">
+        <div class="nav-brand">S</div>
+        <ul class="nav-links">
+            <li><a href="#intro" class="nav-link active"><span class="nav-dot"></span><span
+                        class="nav-text">Home</span></a></li>
+            <li><a href="#about" class="nav-link"><span class="nav-dot"></span><span
+                        class="nav-text">Objective</span></a></li>
+            <li><a href="#education" class="nav-link"><span class="nav-dot"></span><span
+                        class="nav-text">Education</span></a></li>
+            <li><a href="#skills" class="nav-link"><span class="nav-dot"></span><span class="nav-text">Skills</span></a>
+            </li>
+            <li><a href="#projects" class="nav-link"><span class="nav-dot"></span><span
+                        class="nav-text">Projects</span></a></li>
+            <li><a href="#experience" class="nav-link"><span class="nav-dot"></span><span
+                        class="nav-text">Experience</span></a></li>
+            <li><a href="#certifications" class="nav-link"><span class="nav-dot"></span><span
+                        class="nav-text">Awards</span></a></li>
+            <li><a href="#activities" class="nav-link"><span class="nav-dot"></span><span
+                        class="nav-text">Activities</span></a></li>
+            <li><a href="#contact" class="nav-link"><span class="nav-dot"></span><span
+                        class="nav-text">Contact</span></a></li>
+        </ul>
+        <div class="nav-controls">
+            <button class="theme-toggle" id="themeToggle" title="Toggle Theme">◐</button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="intro" class="section glass-card">
+            <div class="intro-grid">
+                <div class="intro-content">
+                    <span class="badge">Available for Internships</span>
+                    <h1 class="name-title">Srimathi S</h1>
+                    <p class="role-title"><span id="typing-text"></span><span class="cursor">|</span></p>
+                    <p class="professional-statement">
+                        Aspiring engineer with a strong interest in Web Development, Data analytics and Java, aiming to
+                        solve complex real-world problems through innovative and efficient solutions.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/srimathis-s-2942a4292/" class="social-icon" title="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://github.com/637416" class="social-icon" title="GitHub">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                    <div class="intro-meta">
+                        <span class="meta-item">📍 Salem, Tamil Nadu</span>
+                        <span class="meta-item">📧 srimathisaminathan02@gmail.com</span>
+                    </div>
+                    <div class="intro-actions">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn btn-glass">View Work</a>
+                    </div>
+                </div>
+                <div class="profile-container">
+                    <div id="threejs-orb"></div>
+                    <div class="accent-blob blob-1"></div>
+                    <div class="accent-blob blob-2"></div>
+                    <div class="profile-card glass-card">
+                        <img src="profile.jpeg" alt="Srimathi S" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Objective Section -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Career Path</span>
+                <h2 class="section-title">Professional Objective</h2>
+            </div>
+            <div class="glass-card" style="padding: 3rem; text-align: center;">
+                <p style="font-size: 1.25rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 2rem;">
+                    Seeking opportunities to enhance my technical skills and contribute to impactful projects.
+                    Interested in building scalable web applications using Java, React.js, and database technologies.
+                    Passionate about developing end-to-end applications including frontend, backend, and database
+                    integration.
+                </p>
+                <div class="skill-tags" style="justify-content: center;">
+                    <span class="tag">Java Full Stack Development</span>
+                    <span class="tag">Data Analytics</span>
+                    <span class="tag">Web Development</span>
+                    <span class="tag">Machine Learning</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Academic Journey</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card glass-card">
+                    <div class="edu-headerRow">
+                        <h3>B.Tech CSBS</h3>
+                        <span class="edu-date">2023 - 2027</span>
+                    </div>
+                    <p>K.S. Rangasamy College of Technology</p>
+                    <p class="edu-grade">CGPA: 8.01</p>
+                </div>
+                <div class="edu-card glass-card">
+                    <div class="edu-headerRow">
+                        <h3>Higher Secondary (HSC)</h3>
+                        <span class="edu-date">2023</span>
+                    </div>
+                    <p>Govt. Higher Secondary School</p>
+                    <p class="edu-grade">Percentage: 72.5%</p>
+                </div>
+                <div class="edu-card glass-card">
+                    <div class="edu-headerRow">
+                        <h3>SSLC</h3>
+                        <span class="edu-date">2021</span>
+                    </div>
+                    <p>Govt. Higher Secondary School</p>
+                    <p class="edu-grade">Percentage: 100%</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Toolbox</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Web & Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Data & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-tags"><span class="tag">Python</span><span class="tag">AI/ML</span></div>
+                        <h3>Online Learning Platform</h3>
+                    </div>
+                    <p>Developed a full-stack learning platform with AI-based course recommendations using Python and
+                        web technologies.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-tags"><span class="tag">MERN Stack</span><span class="tag">E-commerce</span>
+                        </div>
+                        <h3>Grocery Shop Website</h3>
+                    </div>
+                    <p>Built a full-stack e-commerce website with product management, cart system, and admin dashboard
+                        using MERN stack.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-tags"><span class="tag">Power BI</span><span class="tag">DAX</span></div>
+                        <h3>Spotify Dashboard</h3>
+                    </div>
+                    <p>Created an interactive dashboard to analyze music trends and user insights using Power BI and
+                        DAX.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-tags"><span class="tag">Python</span><span class="tag">MySQL</span></div>
+                        <h3>Hospital Management System</h3>
+                    </div>
+                    <p>Developed a CRUD-based hospital management system for efficient patient record handling.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-tags"><span class="tag">NLP</span><span class="tag">Python</span></div>
+                        <h3>Resume Analyzer</h3>
+                    </div>
+                    <p>Built an AI-powered resume analyzer that extracts key skills and provides job matching scores
+                        using NLP techniques.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-tags"><span class="tag">C#</span><span class="tag">API</span></div>
+                        <h3>Weather Forecasting App</h3>
+                    </div>
+                    <p>Created a desktop application to provide real-time weather updates using external APIs and C#.
+                    </p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-tags"><span class="tag">Java</span><span class="tag">JDBC</span></div>
+                        <h3>Airline Reservation System</h3>
+                    </div>
+                    <p>Designed a comprehensive system for booking and managing airline tickets with backend
+                        integration.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Real World</span>
+                <h2 class="section-title">Internship Experience</h2>
+            </div>
+            <div class="experience-list">
+                <div class="experience-card glass-card">
+                    <div class="exp-header">
+                        <div class="exp-info">
+                            <h3>AI/ML Virtual Intern</h3>
+                            <h4>Google for Developers (via Eduskills)</h4>
+                        </div>
+                        <span class="exp-date">July 2025 - Sep 2025</span>
+                    </div>
+                    <ul class="exp-points">
+                        <li>Focused on Artificial Intelligence and Machine Learning under Google for Developers.</li>
+                        <li>Gained hands-on experience in data preprocessing, model development, and evaluation using
+                            Python.</li>
+                        <li>Implemented machine learning algorithms for classification and predictive analysis.</li>
+                        <li>Strengthened understanding of real-world AI applications and problem-solving techniques.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Activities Section -->
+        <section id="certifications" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Recognition</span>
+                <h2 class="section-title">Certifications & Awards</h2>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>Smart India Hackathon</h3>
+                    <p>Participant - 2025</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Frontend Development</h3>
+                    <p>Coursera Certification</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">�</div>
+                    <h3>Python Computing</h3>
+                    <p>IIT Madras (NPTEL)</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">🤖</div>
+                    <h3>GenAI Workshop</h3>
+                    <p>AWS / SheKnowsAI</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">📊</div>
+                    <h3>DSA in Java</h3>
+                    <p>Coding Blocks</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">🌐</div>
+                    <h3>Internet of Things</h3>
+                    <p>NPTEL Certification</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">🔒</div>
+                    <h3>Cyber Security</h3>
+                    <p>Online Social Media (NPTEL)</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">⚡</div>
+                    <h3>Prompt Engineering</h3>
+                    <p>AWS Certification</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Beyond Academics</span>
+                <h2 class="section-title">Co-curricular Activities</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <h3>Codathon 2025</h3>
+                    <p>Actively participated in the campus-wide coding competition, solving complex algorithmic
+                        problems.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <h3>Design Thinking</h3>
+                    <p>Completed a 5-day bootcamp on Design Thinking approach for problem-solving.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <h3>KRUU GRASP</h3>
+                    <p>Engaged in the GRASP Hackathon, working on innovative community-driven tech solutions.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <h3>SRISHTI 2026</h3>
+                    <p>Participated in the SRISHTI national-level technical symposium events.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-container glass-card">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon"><i data-lucide="mail"></i></div>
+                            <div>
+                                <p>Email</p>
+                                <strong>srimathisaminathan02@gmail.com</strong>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i data-lucide="phone"></i></div>
+                            <div>
+                                <p>Phone</p>
+                                <strong>+91 6374164867</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
