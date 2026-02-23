@@ -14,6 +14,7 @@ class PortfolioApp {
     this.initCardTilt();
     this.initTypingEffect();
     this.handleInitialLoad();
+    this.initMobileMenu();
   }
 
   initTypingEffect() {
@@ -172,6 +173,48 @@ class PortfolioApp {
           btn.disabled = false;
         }, 3000);
       }, 1500);
+    });
+  }
+
+  initMobileMenu() {
+    const menuToggle = document.getElementById('mobileMenuToggle');
+    const sideNav = document.getElementById('sideNav');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    if (!menuToggle) return;
+
+    // Toggle menu on button click
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      sideNav.classList.toggle('open');
+      document.body.classList.toggle('nav-open');
+    });
+
+    // Close menu when a nav link is clicked
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('open');
+        sideNav.classList.remove('open');
+        document.body.classList.remove('nav-open');
+      });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!sideNav.contains(e.target) && !menuToggle.contains(e.target)) {
+        menuToggle.classList.remove('open');
+        sideNav.classList.remove('open');
+        document.body.classList.remove('nav-open');
+      }
+    });
+
+    // Close menu on window resize if above tablet size
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 768) {
+        menuToggle.classList.remove('open');
+        sideNav.classList.remove('open');
+        document.body.classList.remove('nav-open');
+      }
     });
   }
 }
