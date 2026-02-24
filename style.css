@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-    /* Premium Color Palette - Dark Mode Primary */
-    --primary: #6366f1;
-    --primary-glow: rgba(99, 102, 241, 0.5);
-    --secondary: #a855f7;
-    --accent: #f59e0b;
+    /* Premium Color Palette - Teal Theme */
+    --primary: #09637E;
+    --primary-glow: rgba(9, 99, 126, 0.5);
+    --secondary: #088395;
+    --accent: #7AB2B2;
     --bg-dark: #0f172a;
     --bg-card: rgba(30, 41, 59, 0.7);
     --bg-nav: rgba(15, 23, 42, 0.8);
